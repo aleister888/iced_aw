@@ -80,7 +80,7 @@ iced_widget = { git = "https://github.com/aleister888/iced", branch = "state-ins
 
 cfg-if = "1.0"
 chrono = { version = "0.4.44", optional = true, features = ["wasmbind"] }
-iced_fonts = { version = "0.3.0", features = [
+iced_fonts = { git = "https://github.com/aleister888/iced_fonts", branch = "state-inspection", features = [
   "advanced_text",
 ]}
 num-format = { version = "0.4.4", optional = true }
